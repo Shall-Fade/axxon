@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  background-image: url("/img/background-banner.jpg");
+  background-image: url("../img/background-banner.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -434,7 +434,7 @@ a {
 
 .datacenter {
   padding: 85px 0 85px 0;
-  background-image: url("/img/background-banner2.jpg");
+  background-image: url("../img/background-banner2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
