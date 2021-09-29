@@ -1,0 +1,117 @@
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+body
+    font-size: 16px
+    background-color: #14112c
+    color: #fff
+    font-weight: 400
+    font-family: 'Open Sans', sans-serif
+
+.header
+    background-image: url("/img/background-banner.jpg")
+    background-position: center center
+    background-size: cover
+    background-repeat: no-repeat
+    background-attachment: fixed
+
+// Main container
+.container
+    width: 1110px
+    margin: 0 auto
+    text-align: center
+    padding: 0 15px
+
+.banner
+    padding: 7px 0
+    width: 304px
+
+a
+    text-decoration: none
+    color: #fff
+
+// Navigation
+.nav
+    padding: 17px 0
+    background-color: #00000066
+    position: absolute
+    width: 100%
+    &__list
+        max-width: 1110px
+        margin: 0 auto
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__item
+        list-style: none
+        font-size: 13px
+        text-transform: uppercase
+        font-weight: 700
+        padding: 0 15px
+
+// Menu
+.menu
+    display: none
+    justify-content: space-between
+    padding: 0 15px
+    &-open
+        background: none
+        border: none
+        img
+            width: 25px
+    &-img
+        width: 180px
+    &__burger
+        display: none
+        padding-top: 20px
+        &-item
+            list-style: none
+            font-size: 14px
+            margin-top: 5px
+            padding: 0 15px
+            text-transform: uppercase
+            font-weight: 700
+        &-item:hover
+            color: #e64b3b
+    &-show
+        display: flex
+        flex-direction: column
+        align-content: center
+
+.btn
+    color: #fff
+    font-size: 15px
+    text-transform: uppercase
+    font-weight: 700
+    background-color: #e64b3b
+    padding: 10px 35px 10px 35px
+    border-radius: 30px
+    cursor: pointer
+
+.btn:hover
+    background-color: #e86b64
+
+.lock
+    width: 50px
+    height: 50px
+    margin: 25px 40px 0 0
+
+.gear
+    width: 50px
+    height: 50px
+    margin: 25px 40px 0 0
+
+.h6-title
+    font-size: 16px
+    text-transform: uppercase
+    color: #3398dc
+    letter-spacing: 1px
+    margin-bottom: 20px
+
+.h2-title
+    font-size: 42px
+    text-transform: uppercase
+    line-height: 1.1
+    letter-spacing: 1px

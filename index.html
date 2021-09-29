@@ -3,11 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="styles/style.css">
-    <title>axxonsoft.com</title>
+    <title>Build your Own VSaaS with Axxon VSaaS Datacenter</title>
 </head>
 <body>
-    
+    <div class="container">
+        <img src="./img/banner.png" alt="Logo" class="banner">
+    </div>
+<!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#">Overview</a></li>
+                <li class="nav__item"><a href="#">Architecture</a></li>
+                <li class="nav__item"><a href="#">For providers</a></li>
+                <li class="nav__item"><a href="#">For end users</a></li>
+                <li class="nav__item"><a href="#">How you can use it</a></li>
+                <li class="nav__item"><a href="#">Contact us</a></li>
+                <li class="nav__item"><a href="#">Language</a></li>
+            </ul>
+<!-- Menu -->
+            <div class="menu">
+                <img class="menu-img" src="/img/small-logo.png" alt="Logo">
+                <button class="menu-open">
+                    <img src="/img/icons/menu-burger.svg" alt="Menu">
+                </button>
+            </div>
+<!-- Burger -->
+            <ul class="menu__burger">
+                <li class="menu__burger-item"><a href="#">Overview</a></li>
+                <li class="menu__burger-item"><a href="#">Architecture</a></li>
+                <li class="menu__burger-item"><a href="#">For providers</a></li>
+                <li class="menu__burger-item"><a href="#">For end users</a></li>
+                <li class="menu__burger-item"><a href="#">How you can use it</a></li>
+                <li class="menu__burger-item"><a href="#">Contact us</a></li>
+                <li class="menu__burger-item"><a href="#">Language</a></li>
+            </ul>
+        </nav>
+<!-- About section -->
+        <div class="about">
+            <div class="about__container">
+                <h1 class="about__title">Think ai. <br>Build your own vsaas</h1>
+                <p class="about__description">Axxon VSaaS Datacenter is video management software that enables 
+                communications service providers and system integrators to build cloud-based 
+                video surveillance solutions (VSaaS) that harness the power of AxxonSoft's neural network 
+                analytics and intelligent search for recorded video.</p>
+                <a class="btn">Get personalized demo</a>
+            </div>
+        </div>
+    </header>
+<!-- Infrastructure section -->
+    <section class="infrastructure">
+        <div class="container">
+            <img class="infrastructure-img" src="/img/infrastructure.png" alt="Infrastructure">
+            <div class="infrastructure__container">
+                <div class="infrastructure__container-item">
+                    <img src="/img/lock.svg" alt="Lock" class="lock">
+                    <div>
+                        <h3 class="infrastructure__container-item-title">Deployment to private or <br>public infrastructure</h3>
+                        <p class="infrastructure__container-item-description">To deploy the system, you can use your own computing infrastructure or rent it in a public cloud.</p>
+                    </div>
+                </div>
+                <div class="infrastructure__container-item">
+                    <img src="/img/gear.svg" alt="Gear" class="gear">
+                    <div>
+                        <h3 class="infrastructure__container-item-title">Fully customizable <br>solutions</h3>
+                        <p class="infrastructure__container-item-description">Flexible configuration of available features and settings for each user or company.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Architecture section -->
+    <section class="architecture">
+        <div class="container">
+            <h6 class="h6-title architecture-h6">Solution architecture</h6>
+            <h2 class="h2-title architecture-h2">How you can use axxon vsaas datacenter to build cloud solutions for your clients</h2>
+            <img class="architecture-img" src="/img/architecture.png" alt="Architecture">
+            <div class="architecture__cloud">
+                <h6 class="h6-title">True cloud architecture</h6>
+                <h3 class="architecture__cloud-title">Cloud-Based VMS Servers</h3>
+                <p class="architecture__cloud-description">Cloud-based VMS servers with remote configuration and monitoring:</p>
+                <ul class="architecture__cloud-list">
+                    <li>Only cameras and network equipment are installed at the client's site. Video can be buffered to SD cards.</li>
+                    <li>The client doesn't need to maintain and support hardware infrastructure. Easy system scaling.</li>
+                </ul>
+                <img class="architecture__cloud-image" src="/img/architecture-cloud.png" alt="Cloud Architecture">
+            </div>
+            <div class="architecture__hybrid">
+                <h6 class="h6-title">Hybrid architecture</h6>
+                <h3 class="architecture__hybrid-title">On-Premises VMS Servers</h3>
+                <p class="architecture__hybrid-description">On-site VMS servers that can be configured and monitored locally or via the cloud:</p>
+                <ul class="architecture__hybrid-list">
+                    <li>Video is stored locally; recording is not affected by Internet connection failures.</li>
+                    <li>Selected portions of video can be stored in the cloud to be quickly accessed from different devices.</li>
+                    <li>The cloud helps easily access, configure and monitor any local system. </li>
+                </ul>
+                <img class="architecture__hybrid-image" src="/img/architecture-hybrid.png" alt="Hybrid Architecture">
+            </div>
+        </div>
+    </section>
+<!-- Camera section -->
+    <section class="camera">
+        <div class="container">
+            <h2 class="h2-title camera-title">Camera connection</h2>
+            <img class="camera-img" src="/img/camera-connection.png" alt="Camera connection">
+            <div class="camera-btn">
+                <a class="btn" href="#">How it works?</a>
+            </div>
+        </div>
+    </section>
+<!-- Info section -->
+    <section class="info">
+        <div class="container">
+            <div class="info__title-block">
+                <h6 class="h6-title">For providers</h6>
+                <h2 class="h2-title">Deployment, maintenance and scaling</h2>
+            </div>
+            <div class="info__container">
+                <div class="info__container-block">
+                    <h2 class="info-title">Web Application</h2>
+                    <ul class="info__list">
+                        <li class="info__item">Microservice architecture, horizontal scalability.</li>
+                        <li class="info__item">Prometheus core metrics monitoring, logging with the ELK stack.</li>
+                        <li class="info__item">Sending of events to IoT platforms. Export of alarm event videos to streaming services, e.g., Amazon KVS.</li>
+                        <li class="info__item">Quickly customizable design of the user interface with the OEM GUI development kit.</li>
+                    </ul>
+                </div>
+                <img class="info-img" src="/img/web-image.png" alt="Web">
+            </div>
+            <div class="info__container">
+                <div class="info__container-block">
+                    <h2 class="info-title">Cloud VMS Servers</h2>
+                    <ul class="info__list">
+                        <li class="info__item">Dynamic resource allocation to each new client or task. </li>
+                        <li class="info__item">Scaling up to 10K servers.</li>
+                        <li class="info__item">Failover service.</li>
+                    </ul>
+                </div>
+                <div class="info__container-block">
+                    <h2 class="info-title">User Report System</h2>
+                    <ul class="info__list">
+                        <li class="info__item">Limitlessly scalable user report system.</li>
+                        <li class="info__item">Development of new reports without coding.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Features section -->
+    <section class="features">
+        <div class="container">
+            <div class="features__title-block">
+                <h6 class="h6-title">For end users</h6>
+                <h2 class="h2-title">Features and benefits</h2>
+            </div>
+            <div class="features__block">
+                <div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/camera.svg" alt="Camera">
+                    <div>
+                        <h5 class="features__block__item-title">AI Facial and License Plate Recognition</h5>
+                        <p class="features__block__item-description">Identify and track persons or vehicles of interest across multiple cameras.</p>
+                    </div>
+                </div>
+                <div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/multimedia.svg" alt="Multimedia">
+                    <div>
+                        <h5 class="features__block__item-title">Intelligent Search Across Recorded Videos</h5>
+                        <p class="features__block__item-description">Quick search by multiple criteria: motion in area(s), crossing of a line, object color or size, etc.</p>
+                    </div>
+                </div><div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/fire.svg" alt="Fire">
+                    <div>
+                        <h5 class="features__block__item-title">AI Fire and Smoke Recognition</h5>
+                        <p class="features__block__item-description">Early detection of fire hotspots in areas where other types of sensors are ineffective.</p>
+                    </div>
+                </div><div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/earth.svg" alt="Earth Detection">
+                    <div>
+                        <h5 class="features__block__item-title">AI Human/Vehicle Detection</h5>
+                        <p class="features__block__item-description">Recognition, tracking and counting of humans and vehicles in complex scenes.</p>
+                    </div>
+                </div><div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/analytic.svg" alt="Analytics">
+                    <div>
+                        <h5 class="features__block__item-title">AI Behavior Analytics</h5>
+                        <p class="features__block__item-description">Early recognition of threats based on specific human postures such as raised arms.</p>
+                    </div>
+                </div><div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/management.svg" alt="Management">
+                    <div>
+                        <h5 class="features__block__item-title">Multi-Level User Rights Management</h5>
+                        <p class="features__block__item-description">Flexible role-based user rights configuration, convenient for large systems.</p>
+                    </div>
+                </div><div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/qr-code.svg" alt="QR Code">
+                    <div>
+                        <h5 class="features__block__item-title">Retail Analytics</h5>
+                        <p class="features__block__item-description">Visitor counting, age and gender guesstimation, queue management and motion heatmapping.</p>
+                    </div>
+                </div><div class="features__block__item">
+                    <img class="features__block__item-img" src="/img/icons/report.svg" alt="Report">
+                    <div>
+                        <h5 class="features__block__item-title">Comprehensive Reports</h5>
+                        <p class="features__block__item-description">Custom reports from any client's facility based on detection tools, alarms and retail analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Cybersecurity section -->
+    <section class="cybersecurity">
+        <div class="container">
+            <h2 class="h2-title cybersecurity-title">Cybersecurity</h2>
+            <div class="cybersecurity__block">
+                <ul class="cybersecurity__list">
+                    <li class="cybersecurity__list-item">Secure connection via HTTPS with TLS encryption.</li>
+                    <li class="cybersecurity__list-item">User password hashing.</li>
+                    <li class="cybersecurity__list-item">Password expiry and password history.</li>
+                    <li class="cybersecurity__list-item">Password strength control.</li>
+                    <li class="cybersecurity__list-item">reCAPTCHA v3 on the login screen.</li>
+                </ul>
+                <ul class="cybersecurity__list">
+                    <li class="cybersecurity__list-item">Setting the lockout time/number of failed login attempts.</li>
+                    <li class="cybersecurity__list-item">Auto logout after a set period of inactivity.</li>
+                    <li class="cybersecurity__list-item">Inactive account locking after a set period, with reactivation by email.</li>
+                </ul>
+            </div>
+            <p class="cybersecurity__paragraph"><a class="cybersecurity__paragraph-link" target="_blank" href="https://www.axxonsoft.com/intelligence/artificial_intelligence/">Learn more</a> about AxxonSoft's artificial intelligence</p>
+        </div>
+    </section>
+<!-- Datacenter section -->
+    <section class="datacenter">
+        <div class="container">
+            <h2 class="datacenter-title h2-title">Axxon vsaas datacenter <br>application examples</h2>
+            <p class="datacenter-paragraph">You can combine these approaches to build your own cloud-based <br>system optimized for your clients' tasks.</p>
+            <div class="datacenter__block">
+                <div class="datacenter__block__item">
+                    <h6 class="datacenter__block__item-title">Hosted vsaas</h6>
+                    <p class="datacenter__block__item-description">Axxon VSaaS Datacenter is employed to build a hosted VSaaS solution that 
+                        offers low upfront expenditures, easy system scaling and virtually zero maintenance costs.
+                    </p>
+                </div>
+                <div class="datacenter__block__item">
+                    <h6 class="datacenter__block__item-title">Cloud-managed vms</h6>
+                    <p class="datacenter__block__item-description">Axxon VSaaS Datacenter is used to monitor and manage cameras connected to 
+                        servers located at clients' premises. Access to the cameras via the cloud is granted in accordance with user rights.
+                    </p>
+                </div>
+                <div class="datacenter__block__item">
+                    <h6 class="datacenter__block__item-title">Analytics on-demand</h6>
+                    <p class="datacenter__block__item-description">Axxon VSaaS Datacenter operates as middleware within a third-party safe 
+                        city system. It analyzes recorded video at the user's request, enabling smart forensic search.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Support section -->
+    <section class="support">
+        <div class="container">
+            <h2 class="support-title h2-title">The only vsaas platform that supports thick desktop client</h2>
+            <img src="/img/client-majority.png" alt="Client majority">
+        </div>
+    </section>
+<!-- Contact section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="h2-title">Contact us</h2>
+            <form action="index.php" method="post" class="form">
+                <input class="form-input" type="text" name="name" placeholder="First name" autocomplete="off" required>
+                <input class="form-input" type="text" name="sername" placeholder="Last name" autocomplete="off" required>
+                <input class="form-input" type="tel" name="tel" placeholder="Phone number" autocomplete="off">
+                <input class="form-input" type="email" name="email" placeholder="Email" autocomplete="off" required>
+                <input class="form-input" type="text" name="company" placeholder="Company" autocomplete="off">
+                <select class="form-country" name="country">
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Japan">Japan</option>
+                </select>
+                <textarea class="form-comment" name="comment" placeholder="Message"></textarea>
+
+                <span class="agree-block">
+                    <input class="form-check" type="checkbox" value="check" checked required>
+                    <p>By clicking Send you agree to our Privacy Policy</p>
+                </span>
+                <input class="form-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
